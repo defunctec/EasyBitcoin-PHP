@@ -10,7 +10,7 @@
 
 <h3>Example API calls</h3>
 
-<p>http://51.38.82.101/api/getinfo.php</p>
+<p>http://ENTERYOURRPCIP/api/getinfo.php</p>
 
 
 </body>

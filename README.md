@@ -3,9 +3,12 @@ EasyCrown-PHP
 
 A simple class for making calls to Crown's API using PHP.
 
-Getting Started
+Instructions
 ---------------
-1. Include easybitcoin.php into your PHP script:
+
+Note - Create a folder called "api" to store your PHP API calls. EG /var/www/html/api/getinfo.php
+
+1. Include easycrown.php into your PHP script:
 
     ```php
     require('easycrown.php');
@@ -36,6 +39,20 @@ Getting Started
     
     $crown->getblock('000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f');
     ```
+4. Example getinfo.php showing simple getinfo response
+   ```
+   <?php
+    
+   require('easycrown.php');
+
+   $crown = new Crown('mycrownrpc','mypassword','54.33.83.156','9341');
+
+   $getinfo = $crown->getinfo();
+
+   print_r($getinfo);
+    
+   ?>
+```
 
 Additional Info
 ---------------

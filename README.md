@@ -6,8 +6,6 @@ A simple class for making calls to Crown's API using PHP.
 Instructions
 ---------------
 
-Note - Create a folder called "api" to store your PHP API calls. EG /var/www/html/api/getinfo.php
-
 1. Include easycrown.php into your PHP script:
 
     ```php

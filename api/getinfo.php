@@ -1,6 +1,6 @@
 <?php
 
-// Example usage (Change user, pass)
+// Example usage (Change user, pass, IP)
 require('easycrown.php');
 
 $crown = new Crown('mycrownrpc','mypassword','54.33.83.156','9341');

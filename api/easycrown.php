@@ -3,13 +3,13 @@
 Easycrown-PHP
 
 A simple class for making calls to crown's API using PHP.
-https://github.com/aceat64/Easybitcoin-PHP
+https://github.com/defunctec/EasyCrown-PHP
 
 ====================
 
 The MIT License (MIT)
 
-Copyright (c) 2013 Andrew LeCody
+Copyright (c) 2018 defunctec
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -3,7 +3,7 @@
 // Example usage (Change user, pass, IP)
 require('easycrown.php');
 
-$crown = new Crown('mycrownrpc','mypassword','54.33.83.156','9341');
+$crown = new Crown('RPCUSER','RPCPASS','RPCCLIENTIP','9341');
 
 $getinfo = $crown->getinfo();
 

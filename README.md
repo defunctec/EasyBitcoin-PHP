@@ -14,12 +14,6 @@ Instructions
 2. Initialize Crown RPC client connection:
 
     ```php
-    $crown = new Crown('RPCUSER','RPCPASS');
-    ```
-
-    Optionally if the above does not work, try this.
-
-    ```php
     $crown = new Crown('RPCUSER','RPCPASS','RPCCLIENTIP','9341');
     ```
 
@@ -33,17 +27,17 @@ Instructions
     ```php
     $crown->getinfo();
     
-    $crown->getrawtransaction('0e3e2357e806b6cdb1f70b54c3a3a17b6714ee1f0e68bebb44a74b1efd512098',1);
+    $crown->getrawtransaction($getblock["tx"]["0"]);
     
-    $crown->getblock('000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f');
     ```
 4. Example getinfo.php showing simple getinfo response
+
    ```
    <?php
     
    require('easycrown.php');
 
-   $crown = new Crown('mycrownrpc','mypassword','54.33.83.156','9341');
+   $crown = new Crown('RPCUSER','RPCPASS','RPCCLIENTIP','9341');
 
    $getinfo = $crown->getinfo();
 
